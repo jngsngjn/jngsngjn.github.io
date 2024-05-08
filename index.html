@@ -6,30 +6,127 @@
   <link rel="stylesheet" href="TIL/css/TIL_style.css">
 </head>
 <body>
-
 <h2>jngsngjn's TIL</h2>
-
+<div class="table-container">
 <table>
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 13%;">
+    <col style="width: 20%;">
+    <col style="width: 10%;">
+  </colgroup>
   <thead>
-    <tr>
-      <th>날짜</th>
-      <th>시간</th>
-      <th>주제 - 대분류</th>
-      <th>주제 - 소분류</th>
-      <th>내용</th>
-      <th>기타</th>
-    </tr>
+  <tr>
+    <th>날짜</th>
+    <th>시간</th>
+    <th>주제 - 대분류</th>
+    <th>주제 - 소분류</th>
+    <th>내용</th>
+    <th>기타</th>
+  </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>2024-04-29</td>
-      <td>21:00 ~ 23:30</td>
-      <td>Git</td>
-      <td>add, commit</td>
-      <td>hellohello</td>
-      <td></td>
-    </tr>
+
+  <tr>
+    <td>2024-04-29</td>
+    <td>21:00 ~ 23:30</td>
+    <td>Git</td>
+    <td>add, commit</td>
+    <td>
+      <div class="tooltip">
+        <button>내용 보기</button>
+        <span class="tooltiptext">"add는 이후에 이루어질 커밋에 포함될 파일들을 준비하는 기능이다. 특정 파일을 add하게 되면 그 파일은 스테이징 영역에 추가된다. 스테이징 영역은 커밋 전 변경 사항을 임시로 저장하는 공간이다.
+commit은 변경 사항을 로컬 저장소에 확정짓는 기능이다. 쉽게 말해, 하나의 시점을 기록하여 나중에 그 상태로 돌아갈 수 있게 해주는 스냅샷을 찍는 것과 같다. 커밋을 할 때는 메시지를 사용하여 해당 커밋이 어떤 변경 사항을 기록한 것인지 설명해 주어야 한다."</span>
+      </div>
+    </td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>2024-04-20</td>
+    <td>21:00 ~ 23:30</td>
+    <td>Git</td>
+    <td>reset, revert, branch</td>
+    <td>
+      <div class="tooltip">
+        <button>내용 보기</button>
+        <span class="tooltiptext">"reset은 지정한 커밋으로 현재 브랜치의 헤드를 재설정하는 기능이다. 주로 커밋을 취소하거나 변경 사항을 되돌리는 데 사용된다. soft, mixed, hard 세 가지의 옵션이 있다.
+revert는 지정한 커밋의 내용을 역으로 적용하는 새로운 커밋을 만드는 기능이다. 지정한 커밋 이후의 이력을 유지하면서 그 커밋만을 무효화하는 방식이다. 이전의 변경 사항을 삭제하지 않고 다른 사람들과 공유된 이력에도 영향을 미치지 않으므로 reset과 달리 안전하다. revert 시 충돌이 발생하는 경우 수동으로 해결하고 커밋을 완료해야 한다. 충돌이 없을 경우에는 커밋 메시지를 작성하면 바로 커밋이 이루어진다.
+branch란 git 환경에서 독립적으로 작업을 진행할 수 있게 해 주는 기능이다. 브랜치를 사용하면 동일한 소스 코드의 다른 버전을 여러 개 만들어 각각 다른 개별 작업을 별도로 진행할 수 있다. 이로 인해 새로운 기능이나 실험적인 변경을 메인 브랜치와 분리하여 진행할 수 있어 안전하며, 여러 개발자가 서로 다른 브랜치에서 독립적으로 작업을 수행할 수 있어 협업에 유리하다."</span>
+      </div>
+    </td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>2024-05-01</td>
+    <td>20:30 ~ 23:15</td>
+    <td>Spring</td>
+    <td>스프링 레거시</td>
+    <td>
+      <button>
+        <a href="https://jngsngjn.tistory.com/4" target="_blank" class="button-link">내용 보기</a>
+      </button>
+    </td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>2024-05-02</td>
+    <td>21:00 ~ 00:30</td>
+    <td>Spring</td>
+    <td>JPA (기초)</td>
+    <td>
+      <button>
+        <a href="https://jngsngjn.tistory.com/5" target="_blank" class="button-link">내용 보기</a>
+      </button>
+    </td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>2024-05-03</td>
+    <td>10:00 ~ 16:20</td>
+    <td>Spring</td>
+    <td>Spring Security (기초)</td>
+    <td>
+      <button>
+        <a href="https://jngsngjn.tistory.com/6" target="_blank" class="button-link">내용 보기</a>
+      </button>
+    </td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>2024-05-07</td>
+    <td>20:00 ~ 23:30</td>
+    <td>Spring</td>
+    <td>MyBatis 연동</td>
+    <td>
+      <button>
+        <a href="https://jngsngjn.tistory.com/7" target="_blank" class="button-link">내용 보기</a>
+      </button>
+    </td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>2024-05-08</td>
+    <td>09:00 ~ 11:30</td>
+    <td>Spring</td>
+    <td>Spring Security (기초)</td>
+    <td>
+      <button>
+        <a href="https://jngsngjn.tistory.com/8" target="_blank" class="button-link">내용 보기</a>
+      </button>
+    </td>
+    <td>-</td>
+  </tr>
+
   </tbody>
 </table>
+</div>
 </body>
 </html>
