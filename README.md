@@ -1,1 +1,3 @@
-# [정성진의 깃허브 페이지로 이동하기](https://jngsngjn.github.io)
+# [Github 페이지](https://jngsngjn.github.io)
+# [Tistory 블로그](https://jngsngjn.tistory.com)
+# [Naver 블로그](https://blog.naver.com/jngsngjn)
