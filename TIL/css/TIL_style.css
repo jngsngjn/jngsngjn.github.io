@@ -104,3 +104,11 @@ button:hover {
 .blog:hover {
     background-color: #094e9a;
 }
+
+.notion {
+    background-color: #e88b48;
+}
+
+.notion:hover {
+    background-color: #ea7a2b;
+}
